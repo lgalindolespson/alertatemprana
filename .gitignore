@@ -1,0 +1,123 @@
+# ==========================================
+# Archivos de Configuración Sensibles
+# ==========================================
+# NUNCA subas estos archivos a GitHub
+
+# Credenciales de Google Cloud
+*.json
+gcp-credentials.json
+service-account.json
+
+# Configuración de Streamlit con secrets
+.streamlit/secrets.toml
+secrets.toml
+
+# ==========================================
+# Archivos de Python
+# ==========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# IDEs y Editores
+# ==========================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ==========================================
+# Sistema Operativo
+# ==========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ==========================================
+# Archivos Temporales
+# ==========================================
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Archivos de backup
+*.bak
+*.backup
+
+# ==========================================
+# Datos Locales (NO subir datos reales)
+# ==========================================
+
+# Bases de datos locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos CSV con datos reales (mantener solo ejemplos)
+# datos_reales_*.csv
+# pacientes_*.csv
+
+# Archivos Excel con datos sensibles
+# casos_*.xlsx
+# resultados_*.xlsx
+
+# ==========================================
+# NOTA IMPORTANTE
+# ==========================================
+# Este archivo .gitignore protege información sensible.
+# Antes de hacer commit, verifica que NO estés subiendo:
+# 1. Credenciales de Google Cloud (*.json)
+# 2. Secrets de Streamlit (secrets.toml)
+# 3. Datos reales de pacientes
+# 4. Información confidencial del laboratorio
